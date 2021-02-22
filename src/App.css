@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar, footer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(12, 124, 199);
+}
+footer {
+  padding: 25px 20px;
+}
+
+#logo {
+  margin: 4px 35px;
+  justify-content: center;
+}
+
+#logo img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 3px 5px;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+  padding: 25px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center
+}

@@ -1,0 +1,29 @@
+
+.cartLayout {
+    display: grid;
+    grid-gap: 1rem;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+
+@media (max-width: 767px) {
+    .cartLayout img {
+        display: none;
+    }
+    .cartLayout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .cartLayout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 993px) {
+    .cartLayout {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

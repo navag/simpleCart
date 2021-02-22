@@ -1,0 +1,43 @@
+
+/* cart css */
+.cart {
+    border: 2px solid #dbdada;
+    margin: 10px 10px;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media (max-width: 767px) {
+.cart {
+    display: flex;
+    align-items:center; 
+    }
+}
+.cart:hover {
+background-color:antiquewhite;
+}
+
+.cart .image img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    width:300px;
+    height: 250px;
+}
+
+.cart .content {
+    padding: 20px;
+}
+
+.cart .heding {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.cart .address {
+    color: grey;
+}
+.cartParent {
+    display:flex;
+    justify-content: center;
+}
